@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mi sitio web</title>
+        <!--Hacemos referencia a los estilos de mi pagina-->
+        <link rel="stylesheet" href="estiloss.css">
+    </head>
+    <body>
+        <header><img src="fondoooo.jpeg"></header>
+    <nav>
+        <ul>
+            <li><a href="#">Conóceme</a>
+                <ul>
+                    <li><a href="Informacion.html">Información personal</a></li>
+                    <li><a href="Pasatiempos.html">Pasatiempos</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Segunda parcial</a>
+                <ul>
+                    <li><a href="practica1.html">Práctica uno</a></li>
+                    <li><a href="posiciones.html">Posiciones</a></li>
+                    <li><a href="mundodigital.html">Mi mundo digital</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Tercer parcial</a>
+                <ul>
+                    <li><a href="tercer_practica1.html">Práctica uno</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+     <aside class="principal">
+        <h2>DIA DEL PROGRAMADOR</h2>
+        <h2>Tema: Posiciones con CSS</h2>
+        <p>Esta práctica consiste en aplicar las propiedades de posicionamiento en HTML con CSS, estas 
+            nos permiten controlar la ubicación de los elementos dentro una pagina web
+        </p>
+        <h2>¿Qué es el posicionamiento?</h2>
+        <p>Dependiendo de la posición, un elemento pude permanecer en su lugar, 
+            desplazarse, colocarse encima o estar fijo.
+        </p>
+        </aside>
+        <aside class="secundario">
+            <iframe 
+           width="100%" 
+                height="315" 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title="Video de YouTube"
+                frameborder="0"
+                allowfullscreen>
+        </iframe>
+        </aside>
+
+        <main class="contenedor-practica">
+        <h1>Práctica: Propiedad Position en CSS</h1>
+        
+        <!-- Position Static -->
+        <section class="ejemplo">
+            <h2>1. Position: Static</h2>
+            <p>Es la posición por defecto. El elemento sigue el flujo normal del documento.</p>
+            <div class="caja-contenedor">
+                <div class="caja caja-static">Static</div>
+            </div>
+        </section>
+
+        <!-- Position Relative -->
+        <section class="ejemplo">
+            <h2>2. Position: Relative</h2>
+            <p>Se desplaza desde su posición original usando <code>top</code> y <code>left</code> sin afectar el resto de los elementos.</p>
+            <div class="caja-contenedor">
+                <div class="caja caja-relative">Relative</div>
+            </div>
+        </section>
+
+        <!-- Position Absolute -->
+        <section class="ejemplo">
+            <h2>3. Position: Absolute</h2>
+            <p>Se posiciona con respecto a su contenedor padre más cercano que tenga <code>position: relative</code>.</p>
+            <div class="caja-contenedor contenedor-relativo">
+                <div class="caja caja-absolute">Absolute</div>
+            </div>
+        </section>
+
+        <!-- Position Sticky -->
+        <section class="ejemplo">
+            <h2>4. Position: Sticky</h2>
+            <p>Se desplaza normalmente con el scroll hasta llegar a una posición fijada (ej. <code>top: 10px</code>), donde se fije temporalmente.</p>
+            <div class="caja caja-sticky">Sticky</div>
+        </section>
+
+        <!-- Position Fixed -->
+<section class="ejemplo">
+    <h2>5. Position: Fixed</h2>
+    <p>Este elemento se sale de este cuadro y se fija en la esquina inferior derecha de tu pantalla (mira la esquina abajo a la derecha de tu navegador).</p>
+    
+    <div class="caja-contenedor">
+        <p><em>(El elemento con position: fixed se despegó de esta caja y ahora flota en tu pantalla)</em></p>
+    </div>
+</section>
+
+<!-- Elemento que flota en la pantalla -->
+<div class="caja caja-fixed">
+    ¡Soy Fixed!
+</div>
+
+    <footer>
+        <img src="LOGO.jpeg">
+        <div>
+            <p><strong>Universidad de colima</strong></p>
+            <p>Bachillerato 8</p>
+            <p>Programacion en Internet I</p>
+        </div>
+    </footer>
+    </body>
+</html>
