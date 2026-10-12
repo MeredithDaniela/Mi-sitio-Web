@@ -13,7 +13,7 @@ header img{
 }
 /* Estilos del menu*/
 nav{
-    background-color: #ffd8e5;
+    background-color: #ffc7db;
 }
 nav ul{
     list-style: none;
@@ -33,7 +33,7 @@ nav a{
     padding: 15px 20px;
 }
 nav a:hover{
-    backgroung-color: #ffd8e5;
+    background-color: #ffd8e5;
 }
 nav li ul{
     display: none;
@@ -79,4 +79,88 @@ aside img{
     height: 175px;
     width: 200px;
     margin-right: 40px;
+}
+/*ESTILOS PARA LA PRÁCTICA DE POSICIONES*/
+
+/* Contenedor principal de la página de práctica */
+.contenedor-practica {
+    padding: 30px;
+    background-color: #f4f6f7;
+}
+
+.ejemplo {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.caja-contenedor {
+    background-color: #e0e0e0;
+    padding: 20px;
+    min-height: 120px;
+    border: 2px dashed #888;
+}
+
+/* Base común para las cajas de prueba */
+.caja {
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+/* 1. POSITION STATIC */
+.caja-static {
+    background-color: #7f8c8d;
+    position: static;
+}
+
+/* 2. POSITION RELATIVE */
+.caja-relative {
+    background-color: #e74c3c;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+/* 3. POSITION ABSOLUTE */
+.contenedor-relativo {
+    position: relative; /* Contenedor padre de referencia */
+    height: 150px;
+}
+
+.caja-absolute {
+    background-color: #3498db;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+/* 4. POSITION STICKY */
+.caja-sticky {
+    background-color: #8e44ad;
+    position: sticky;
+    top: 10px;
+    z-index: 10;
+}
+
+/* 5. POSITION FIXED */
+.caja-fixed {
+    background-color: #2ecc71; /* Verde */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    position: fixed; /* Se fija a la pantalla */
+    bottom: 20px;   /* Distancia desde abajo */
+    right: 20px;    /* Distancia desde la derecha */
+    padding: 15px;
+    border-radius: 8px;
+    z-index: 9999;  /* Se asegura de estar por encima de todo */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
