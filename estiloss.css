@@ -117,7 +117,7 @@ aside img{
 }
 .container1 {
   position: relative;
-  background: lightgray;
+  background:rgb(255, 216, 216);
 }
 .caja-rosa2 {
   position: absolute;
@@ -129,7 +129,7 @@ aside img{
 /*4. Fixed*/
 .container { 
   position: relative;
-  background: lightgray;
+  background: rgb(255, 216, 216);
   width: 50%;
   margin: 0 auto;
   height: 1000px;
@@ -159,7 +159,7 @@ aside img{
 /*STicky*/
 .container2 { 
   position: relative;
-  background: lightgray;
+  background: rgb(255, 216, 216);
   width: 50%;
   margin: 0 auto;
   height: 1000px;
