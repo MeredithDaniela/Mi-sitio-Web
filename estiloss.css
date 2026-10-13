@@ -191,3 +191,89 @@ aside img{
   padding: 10px;
   color: white;
 }
+/* ==========================================================================
+   ESTILOS PARA LA PÁGINA COMUNIDAD DIGITAL (comunidad.html)
+   ========================================================================== */
+
+/* Estilos de la Tabla */
+.tabla-tecnologias {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.95rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.tabla-tecnologias th {
+    background-color: #ffc7db;
+    color: #ffffff;
+    text-align: left;
+    padding: 12px 15px;
+    font-weight: 600;
+}
+
+.tabla-tecnologias td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #333333;
+}
+
+/* Filas alternadas */
+.tabla-tecnologias tbody tr:nth-of-type(even) {
+    background-color: #f8fafc;
+}
+
+.tabla-tecnologias tbody tr:hover {
+    background-color: #f5eef3;
+}
+
+/* Estilos de la Lista de Definiciones (<dl>, <dt>, <dd>) */
+.lista-conceptos {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #ffffff;
+    border-left: 5px solid rgb(188, 143, 164);
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.lista-conceptos dt {
+    font-weight: bold;
+    color: rgb(79, 47, 63);
+    font-size: 1.05rem;
+    margin-top: 12px;
+}
+
+.lista-conceptos dt:first-child {
+    margin-top: 0;
+}
+
+.lista-conceptos dd {
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #444444;
+    line-height: 1.5;
+}
+
+/* Estilos del Contenedor de Video */
+.contenedor-video {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.contenedor-video iframe {
+    border: none;
+    display: block;
+}
+
+.nota-adicional {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px dashed rgb(188, 143, 164);
+}
